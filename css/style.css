@@ -49,11 +49,11 @@ header .wrapGnb .gnb ul li {
   background-color: #fff;
   width: 300px;
 }
-header .wrapGnb .gnb ul:hover a {
+header .wrapGnb .gnb ul li:hover a {
   color: rgb(70, 70, 143);
   font: 23px/1 "GmarketSansMedium";
 }
-header .wrapGnb .gnb ul a {
+header .wrapGnb .gnb ul li a {
   letter-spacing: 2px;
   display: flex;
   font: 23px/1 "GmarketSansMedium";
@@ -61,7 +61,7 @@ header .wrapGnb .gnb ul a {
   text-align: center;
   justify-content: center;
 }
-header .wrapGnb .gnb ul.on a {
+header .wrapGnb .gnb ul li.on a {
   color: rgb(70, 70, 143);
 }
 header .wrapGnb .gnb ul .sub {
@@ -79,7 +79,7 @@ header .wrapGnb .gnb ul .sub li {
   width: 100%;
 }
 header .wrapGnb .gnb ul .sub li a {
-  font: 20px/1.9 "GmarketSansMedium";
+  font: 20px/2 "GmarketSansMedium";
   color: #9b9b9b;
   text-align: center;
   z-index: 200;
@@ -174,12 +174,12 @@ footer .inner .footer_wrap a img {
   font-style: normal;
 }
 .top {
-  width: 100%;
+  width: 1180;
   position: relative;
 }
 .top img {
   width: 100%;
-  height: 800px;
+  height: 600px;
   position: relative;
 }
 .top .wrap {
@@ -188,14 +188,14 @@ footer .inner .footer_wrap a img {
   top: 0.5px;
 }
 .top .wrap li {
-  padding: 13px;
+  padding: 7px;
   opacity: 0.7;
   background-color: rgb(50, 50, 78);
 }
 .top .wrap li p {
   z-index: 3;
   color: white;
-  font: 23px/1 "GmarketSansMedium";
+  font: 20px/1 "GmarketSansMedium";
   margin-left: 200px;
   opacity: 1;
   line-height: 2;
@@ -204,7 +204,7 @@ footer .inner .footer_wrap a img {
   width: 100%;
   margin: 0 auto;
   position: absolute;
-  top: 30%;
+  top: 33%;
 }
 .top .inner h1 {
   font: 60px/2 "GmarketSansMedium";
@@ -219,12 +219,12 @@ footer .inner .footer_wrap a img {
 }
 
 .coffebean {
-  top: 200px;
+  top: 140px;
   width: 100%;
   position: relative;
 }
 .coffebean .wrap {
-  width: 1800px;
+  width: 1180px;
   margin: 0 auto;
 }
 .coffebean .wrap .inner {
@@ -232,105 +232,104 @@ footer .inner .footer_wrap a img {
 }
 .coffebean .wrap .inner .line {
   position: absolute;
-  margin-top: 245px;
-  margin-left: 750px;
-  border-top: 5px solid rgb(71, 172, 172);
-  width: 500px;
+  margin-top: 190px;
+  margin-left: 350px;
+  border-top: 3px solid rgb(71, 172, 172);
+  width: 250px;
 }
 .coffebean .wrap .explanation1 li img {
   position: absolute;
-  margin-left: 1315px;
+  margin-left: 695px;
 }
 .coffebean .wrap .explanation1 li h1 {
-  font: 65px/1 "GmarketSansBold";
+  font: 45px/1 "GmarketSansBold";
   color: rgb(62, 62, 126);
-  line-height: 70px;
+  line-height: 50px;
 }
 .coffebean .wrap .explanation1 li h2 {
   margin-top: 80px;
-  font: 50px/1 "GmarketSansMedium";
+  font: 30px/1 "GmarketSansMedium";
   color: rgb(112, 112, 163);
 }
 .coffebean .wrap .explanation1 li p {
   margin-top: 80px;
-  font: 38px/1 "GmarketSansMedium";
+  font: 28px/1 "GmarketSansMedium";
   color: rgb(87, 87, 119);
   line-height: 50px;
   word-spacing: -2px;
   padding-bottom: 150px;
 }
 .coffebean .wrap .explanation2 {
-  width: 1800px;
+  width: 1180px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 130px;
 }
 .coffebean .wrap .explanation2 .inner {
   width: 100%;
 }
 .coffebean .wrap .explanation2 .inner .line {
   position: absolute;
-  margin-top: 80px;
-  margin-left: 650px;
-  border-top: 5px solid rgb(71, 172, 172);
-  width: 500px;
+  margin-top: 50px;
+  margin-left: 570px;
+  border-top: 3px solid rgb(71, 172, 172);
+  width: 250px;
 }
 .coffebean .wrap .explanation2 li img {
+  width: 500px;
   position: absolute;
   height: 600px;
 }
 .coffebean .wrap .explanation2 li h2 {
-  text-align: right;
   margin-top: 80px;
-  font: 65px/1 "GmarketSansBold";
+  font: 50px/1 "GmarketSansMedium";
   color: rgb(62, 62, 126);
-  line-height: 70px;
+  margin-left: 837px;
 }
 .coffebean .wrap .explanation2 li p {
-  text-align: right;
-  width: 100%;
-  margin-top: 80px;
-  font: 38px/1 "GmarketSansMedium";
+  margin-top: 60px;
+  font: 28px/1 "GmarketSansMedium";
   color: rgb(87, 87, 119);
   line-height: 50px;
   word-spacing: -2px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
+  margin-left: 747px;
+  text-align: right;
 }
 .coffebean .wrap .explanation3 {
-  width: 1800px;
+  width: 1180px;
   margin: 0 auto;
-  margin-top: 80px;
+  margin-top: 74px;
 }
 .coffebean .wrap .explanation3 .inner {
   width: 100%;
 }
 .coffebean .wrap .explanation3 .inner .line {
   position: absolute;
-  margin-top: 80px;
-  margin-left: 520px;
-  border-top: 5px solid rgb(71, 172, 172);
-  width: 500px;
+  margin-top: 56px;
+  margin-left: 385px;
+  border-top: 3px solid rgb(71, 172, 172);
+  width: 250px;
 }
 .coffebean .wrap .explanation3 li img {
   position: absolute;
-  margin-left: 1062px;
-  width: 739px;
-  height: 500px;
+  margin-left: 660px;
+  width: 520px;
+  height: 450px;
 }
 .coffebean .wrap .explanation3 li h2 {
-  font: 65px/1 "GmarketSansBold";
+  font: 50px/1 "GmarketSansMedium";
   color: rgb(62, 62, 126);
-  line-height: 70px;
 }
 .coffebean .wrap .explanation3 li p {
   margin-top: 80px;
-  font: 38px/1 "GmarketSansMedium";
+  font: 28px/1 "GmarketSansMedium";
   color: rgb(87, 87, 119);
   line-height: 50px;
   word-spacing: -2px;
-  padding-bottom: 150px;
+  padding-bottom: 100px;
 }
 .coffebean .wrap .explanation4 {
-  width: 1800px;
+  width: 1180px;
   margin: 0 auto;
 }
 .coffebean .wrap .explanation4 .inner {
@@ -338,51 +337,54 @@ footer .inner .footer_wrap a img {
 }
 .coffebean .wrap .explanation4 .inner .line {
   position: absolute;
-  margin-top: 70px;
-  margin-left: 750px;
-  border-top: 5px solid rgb(71, 172, 172);
-  width: 500px;
+  margin-top: 43px;
+  margin-left: 676px;
+  border-top: 3px solid rgb(71, 172, 172);
+  width: 250px;
 }
 .coffebean .wrap .explanation4 li img {
   position: absolute;
+  width: 530px;
+  height: 480px;
 }
 .coffebean .wrap .explanation4 li h2 {
   text-align: right;
   margin-top: 80px;
-  font: 65px/1 "GmarketSansBold";
+  font: 50px/1 "GmarketSansMedium";
   color: rgb(62, 62, 126);
-  line-height: 70px;
 }
 .coffebean .wrap .explanation4 li p {
   text-align: right;
   width: 100%;
   margin-top: 80px;
-  font: 38px/1 "GmarketSansMedium";
+  font: 28px/1 "GmarketSansMedium";
   color: rgb(87, 87, 119);
   line-height: 50px;
   word-spacing: -2px;
   padding-bottom: 200px;
 }
 .coffebean .wrap .explanation5 {
-  width: 1800px;
+  width: 1180px;
   margin: 0 auto;
 }
 .coffebean .wrap .explanation5 .inner {
   width: 100%;
+  margin-left: 50%;
+  transform: translateX(-50%);
 }
 .coffebean .wrap .explanation5 .inner .line1 {
   position: absolute;
   margin-top: 80px;
   margin-left: 0px;
-  border-top: 5px solid rgb(71, 172, 172);
-  width: 500px;
+  border-top: 3px solid rgb(71, 172, 172);
+  width: 250px;
 }
 .coffebean .wrap .explanation5 .inner .line2 {
   position: absolute;
   margin-top: 80px;
-  margin-left: 1300px;
-  border-top: 5px solid rgb(71, 172, 172);
-  width: 500px;
+  margin-left: 800px;
+  border-top: 3px solid rgb(71, 172, 172);
+  width: 250px;
 }
 .coffebean .wrap .explanation5 .logo {
   width: 100%;
@@ -396,7 +398,7 @@ footer .inner .footer_wrap a img {
   margin-top: 30px;
 }
 .coffebean .wrap .explanation5 .coffe {
-  width: 1300px;
+  width: 1180px;
   margin-top: 100px;
   margin-left: 150px;
   margin-bottom: 300px;
