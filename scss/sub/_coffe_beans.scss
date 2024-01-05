@@ -1,0 +1,261 @@
+@font-face {
+    font-family: 'GmarketSansLight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansLight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansMedium';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansMedium.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'GmarketSansBold';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2001@1.1/GmarketSansBold.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'NEXON Lv1 Gothic OTF';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_20-04@2.1/NEXON Lv1 Gothic OTF.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+.top{
+    width: 100%;
+    position: relative;
+    img{
+        width: 100%;
+        height: 800px;
+        position: relative;
+    }
+    .wrap{
+        position: absolute;
+        width: 100%;
+        top: 0.5px;
+        li{
+            padding: 13px;
+            opacity: 0.7;
+            background-color: rgb(50, 50, 78);
+            p{
+                z-index: 3;
+                color: white;
+                font: 23px/1 'GmarketSansMedium';
+                margin-left: 200px;
+                opacity: 1;
+                line-height: 2;
+            }
+        }
+    }
+    .inner{
+        width: 100%;
+        margin: 0 auto;
+        position: absolute;
+        top: 30%;
+        h1{
+            font: 60px/2 'GmarketSansMedium';
+            text-align: center;
+            color: white;
+        }
+        P{
+            font: 30px/1 'NEXON Lv1 Gothic OTF';
+            text-align: center;
+            color: white;
+            margin-top: 60px;
+        }
+    }
+}
+.coffebean{
+    top: 200px;
+    width: 100%;
+    position: relative;
+    .wrap{
+        width: 1800px;
+        margin: 0 auto;
+        .inner{
+            width: 100%;
+            .line{
+                position: absolute;
+                margin-top: 245px;
+                margin-left: 750px;
+                border-top: 5px solid rgb(71, 172, 172);
+                width: 500px;
+            }
+        }
+        .explanation1{
+            li{
+                img{
+                    position: absolute;
+                    margin-left: 1315px;
+                }
+                h1{
+                    font: 65px/1 'GmarketSansBold';
+                    color: rgb(62, 62, 126);
+                    line-height: 70px;
+                }
+                h2{
+                    margin-top: 80px;
+                    font: 50px/1 'GmarketSansMedium';
+                    color: rgb(112, 112, 163);
+                }
+                p{
+                    margin-top: 80px;
+                    font: 38px/1 'GmarketSansMedium';
+                    color: rgb(87, 87, 119);
+                    line-height: 50px;
+                    word-spacing: -2px;
+                    padding-bottom: 150px;
+                }
+            }
+        }
+        .explanation2{
+            width: 1800px;
+            margin: 0 auto;
+            margin-top: 80px;
+            .inner{
+                width: 100%;
+                .line{
+                    position: absolute;
+                    margin-top: 80px;
+                    margin-left: 650px;
+                    border-top: 5px solid rgb(71, 172, 172);
+                    width: 500px;
+                }
+            }
+            li{
+                img{
+                    position: absolute;
+                    height: 600px;
+                }
+                h2{
+                    text-align: right;
+                    margin-top: 80px;
+                    font: 65px/1 'GmarketSansBold';
+                    color: rgb(62, 62, 126);
+                    line-height: 70px;
+                }
+                p{
+                    text-align: right;
+                    width: 100%;
+                    margin-top: 80px;
+                    font: 38px/1 'GmarketSansMedium';
+                    color: rgb(87, 87, 119);
+                    line-height: 50px;
+                    word-spacing: -2px;
+                    padding-bottom: 150px;
+                }
+            }
+        }
+        .explanation3{
+            width: 1800px;
+            margin: 0 auto;
+            margin-top: 80px;
+            .inner{
+                width: 100%;
+                .line{
+                    position: absolute;
+                    margin-top: 80px;
+                    margin-left: 520px;
+                    border-top: 5px solid rgb(71, 172, 172);
+                    width: 500px;
+                }
+            }
+            li{
+                img{
+                    position: absolute;
+                    margin-left: 1062px;
+                    width: 739px;
+                    height: 500px;
+                }
+                h2{
+                    font: 65px/1 'GmarketSansBold';
+                    color: rgb(62, 62, 126);
+                    line-height: 70px;
+                }
+                p{
+                    margin-top: 80px;
+                    font: 38px/1 'GmarketSansMedium';
+                    color: rgb(87, 87, 119);
+                    line-height: 50px;
+                    word-spacing: -2px;
+                    padding-bottom: 150px;
+                }
+            }
+        }
+        .explanation4{
+            width: 1800px;
+            margin: 0 auto;
+            .inner{
+                width: 100%;
+                .line{
+                    position: absolute;
+                    margin-top: 70px;
+                    margin-left: 750px;
+                    border-top: 5px solid rgb(71, 172, 172);
+                    width: 500px;
+                }
+            }
+            li{
+                img{
+                    position: absolute;
+                }
+                h2{
+                    text-align: right;
+                    margin-top: 80px;
+                    font: 65px/1 'GmarketSansBold';
+                    color: rgb(62, 62, 126);
+                    line-height: 70px;
+                }
+                p{
+                    text-align: right;
+                    width: 100%;
+                    margin-top: 80px;
+                    font: 38px/1 'GmarketSansMedium';
+                    color: rgb(87, 87, 119);
+                    line-height: 50px;
+                    word-spacing: -2px;
+                    padding-bottom: 200px;
+                }
+            }
+        }
+        .explanation5{
+            width: 1800px;
+            margin: 0 auto;
+            .inner{
+                width: 100%;
+                .line1{
+                    position: absolute;
+                    margin-top: 80px;
+                    margin-left: 0px;
+                    border-top: 5px solid rgb(71, 172, 172);
+                    width: 500px;
+                }
+                .line2{
+                    position: absolute;
+                    margin-top: 80px;
+                    margin-left: 1300px;
+                    border-top: 5px solid rgb(71, 172, 172);
+                    width: 500px;
+                }
+            }
+            .logo{
+                width: 100%;
+                margin-left: 36%;
+            }
+            h1{
+                font: 75px/1 'GmarketSansBold';
+                color: rgb(53, 53, 95);
+                line-height: 70px;
+                margin-left: 34%;
+                margin-top: 30px;
+            }
+            .coffe{
+                width: 1300px;
+                margin-top: 100px;
+                margin-left: 150px;
+                margin-bottom: 300px;
+            }
+        }
+    }
+}
