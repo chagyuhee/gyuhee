@@ -17,7 +17,7 @@ a {
 
 header {
   width: 100%;
-  height: 120px;
+  height: 100px;
   position: relative;
 }
 header .inner {
@@ -34,64 +34,67 @@ header .inner .logo img {
 }
 header .wrapGnb .gnb {
   position: absolute;
-  top: 37%;
-  right: 100px;
+  top: 40%;
+  right: 50px;
   z-index: 100;
   display: flex;
 }
-header .wrapGnb .gnb li {
-  margin-top: 15px;
+header .wrapGnb .gnb ul {
+  width: 1180px;
+  display: flex;
+}
+header .wrapGnb .gnb ul li {
+  margin-top: 30px;
   float: left;
   background-color: #fff;
   width: 300px;
 }
-header .wrapGnb .gnb li:hover a {
+header .wrapGnb .gnb ul:hover a {
   color: rgb(70, 70, 143);
-  font: 30px/1.9 "GmarketSansMedium";
+  font: 23px/1 "GmarketSansMedium";
 }
-header .wrapGnb .gnb li a {
+header .wrapGnb .gnb ul a {
   letter-spacing: 2px;
   display: flex;
-  font: 30px/1.9 "GmarketSansMedium";
+  font: 23px/1 "GmarketSansMedium";
   color: #5f5f5f;
   text-align: center;
   justify-content: center;
 }
-header .wrapGnb .gnb li.on a {
+header .wrapGnb .gnb ul.on a {
   color: rgb(70, 70, 143);
 }
-header .wrapGnb .gnb li .sub {
+header .wrapGnb .gnb ul .sub {
   z-index: 20;
   display: block;
   width: 100%;
-  height: 390px;
+  height: 320px;
   background-color: #fff;
 }
-header .wrapGnb .gnb li .sub li {
-  height: 50px;
+header .wrapGnb .gnb ul .sub li {
+  height: 20px;
   z-index: 20;
   display: block;
   text-align: center;
   width: 100%;
 }
-header .wrapGnb .gnb li .sub li a {
-  font: 27px/1.7 "Gmgit remote add originarketSansMedium";
+header .wrapGnb .gnb ul .sub li a {
+  font: 20px/1.9 "GmarketSansMedium";
   color: #9b9b9b;
   text-align: center;
-  letter-spacing: 1px; 
   z-index: 200;
   background-color: #fff;
 }
-header .wrapGnb .gnb li .sub li.on a {
+header .wrapGnb .gnb ul .sub li.on a {
   background: #fff;
   color: rgb(105, 105, 105);
 }
-header .wrapGnb .gnb li .sub li:hover a {
+header .wrapGnb .gnb ul .sub li:hover a {
   background-color: #fff;
   color: rgb(105, 105, 105);
   font-family: "GmarketSansBold";
 }
-header .wrapGnb .gnb li .sub:hover li {
+header .wrapGnb .gnb ul .sub:hover li {
   font-family: "GmarketSansMedium";
   background: #fff;
   color: rgb(82, 82, 82);
@@ -99,14 +102,14 @@ header .wrapGnb .gnb li .sub:hover li {
 
 footer {
   left: 50%;
-  transform: translateX(-31.5%);
+  transform: translateX(-31%);
   position: absolute;
   width: 100%;
   display: flex;
   flex-direction: column;
 }
 footer .wrap {
-  width: 1800px;
+  width: 1180px;
   display: flex;
   margin-bottom: 15px;
 }
@@ -121,29 +124,29 @@ footer .inner {
   padding-top: 30px;
   display: flex;
   border-top: 3px solid mediumturquoise;
-  width: 1805px;
+  width: 1180px;
 }
 footer .inner .footer_logo img {
+  margin-top: 20px;
   width: 200px;
 }
 footer .inner .copy p {
   width: 100%;
   font: 17px/1 "GmarketSansMedium";
   color: rgb(42, 42, 75);
-  line-height: 7px;
   /* margin-left: 100px; */
-  padding: 15px 0;
+  padding: 10px 0px;
   letter-spacing: 2px;
   margin-left: 50px;
 }
 footer .inner .footer_wrap {
-  margin-left: 800px;
+  margin-left: 300px;
   display: flex;
 }
 footer .inner .footer_wrap a img {
-  width: 35px;
+  width: 30px;
   margin-top: 40px;
-  margin-left: 38px;
+  margin-left: 30px;
 }
 
 @font-face {
@@ -436,18 +439,18 @@ body .sidebar {
   position: fixed;
   width: 150px;
   z-index: 10;
-  left: 90%;
-  top: 60%;
+  left: 93%;
+  top: 65%;
 }
 body .sidebar a img {
-  width: 150px;
+  width: 90px;
 }
 body .popup {
   display: block;
   position: absolute;
   top: 20%;
   left: 60%;
-  width: 483.5px;
+  width: 484px;
   height: 670px;
   border: 1px solid none;
   background-color: aliceblue;
@@ -458,7 +461,7 @@ body .popup {
 body .popup .popupimg {
   width: 100%;
   position: absolute;
-  left: 3%;
+  left: 3.1%;
   bottom: 0%;
 }
 body .popup .popupimg a {
@@ -482,6 +485,7 @@ body .popup .check .close {
 }
 
 #slide {
+  height: 650px;
   width: 100%;
   position: relative;
   top: 20px;
@@ -495,8 +499,8 @@ body .popup .check .close {
   column-gap: 20px;
 }
 #slide .gu li {
-  width: 20px;
-  height: 20px;
+  width: 15px;
+  height: 15px;
   border-radius: 20px;
   background: #fff;
   cursor: pointer;
@@ -504,16 +508,16 @@ body .popup .check .close {
   opacity: 0.8;
 }
 #slide .gu li:hover {
-  width: 80px;
+  width: 70px;
   background: #d1d1d1;
 }
 #slide .gu li.on {
-  width: 80px;
+  width: 70px;
   background: #d1d1d1;
 }
 #slide .frame {
   width: 100%;
-  height: 1000px;
+  height: 700px;
   position: relative;
 }
 #slide .frame li {
@@ -523,7 +527,7 @@ body .popup .check .close {
 }
 #slide .frame li img {
   width: 100%;
-  height: 1050px;
+  height: 700px;
   object-fit: cover;
 }
 #slide .frame li.on {
@@ -531,7 +535,7 @@ body .popup .check .close {
 }
 #slide .prev img {
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 90px;
   opacity: 0.6;
   top: 50%;
@@ -539,7 +543,7 @@ body .popup .check .close {
 }
 #slide .next img {
   position: absolute;
-  width: 50px;
+  width: 40px;
   height: 90px;
   opacity: 0.6;
   top: 50%;
@@ -549,7 +553,7 @@ body .popup .check .close {
 #tab {
   position: relative;
   width: 100%;
-  top: 120px;
+  top: 140px;
 }
 #tab .logo {
   display: block;
@@ -564,7 +568,7 @@ body .popup .check .close {
   width: 100%;
 }
 #tab #menu ul {
-  width: 1790px;
+  width: 1180px;
   display: flex;
   position: relative;
   left: 50%;
@@ -577,7 +581,7 @@ body .popup .check .close {
   font: 27px/1 "GmarketSansMedium";
   border: 1px solid #a0a0a0;
   text-align: center;
-  padding: 20px 0;
+  padding: 15px 0;
 }
 #tab #menu ul li a {
   color: #8d8d8d;
@@ -597,7 +601,7 @@ body .popup .check .close {
   clear: both;
 }
 #tab ._menu section article {
-  width: 1800px;
+  width: 1180px;
   margin-left: 50%;
   transform: translateX(-50%);
   margin-top: 45px;
@@ -609,7 +613,7 @@ body .popup .check .close {
   transform: scale(0);
 }
 #tab ._menu section article .inner img {
-  width: 450px;
+  width: 295px;
   padding: 2px;
   float: left;
 }
@@ -630,18 +634,18 @@ body .popup .check .close {
   position: relative;
 }
 .bn div {
-  width: 1800px;
+  width: 1180px;
   margin: 0 auto;
   margin-bottom: 220px;
   display: flex;
 }
 .bn div .banner img {
-  width: 900px;
-  height: 300px;
+  width: 590px;
+  height: 200px;
 }
 .bn div .baro {
-  width: 900px;
-  height: 300px;
+  width: 590px;
+  height: 200px;
   background-color: #f8f8f8;
 }
 .bn div .baro ul {
@@ -657,14 +661,14 @@ body .popup .check .close {
   text-align: center;
 }
 .bn div .baro ul li img {
-  width: 180px;
+  width: 120px;
   margin-left: 15px;
   margin-top: 15px;
 }
 .bn div .baro ul li a {
-  padding-top: 30px;
-  padding-left: 20px;
-  font: 25px/1.5 "GmarketSansMedium";
+  padding-top: 20px;
+  padding-left: 15px;
+  font: 23px/1.5 "GmarketSansMedium";
   color: rgb(58, 58, 58);
   text-align: center;
 }
