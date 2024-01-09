@@ -11,14 +11,14 @@ footer {
 		margin-bottom: 15px;
 		h3 {
 			display: flex;
-			font: bold 17px/1 '맑은고딕';
+			font: bold 15px/1 '맑은고딕';
 			color: #696969;
-			width: 170px;
+			width: 150px;
 			justify-content: center;
 		}
 	}
 	.inner {
-		padding-top: 30px;
+		padding-top: 20px;
 		display: flex;
 		border-top: 3px solid mediumturquoise;
 		width: 1180px;
@@ -29,7 +29,7 @@ footer {
 		.copy {
 			p {
 				width: 100%;
-				font: 17px/1 'GmarketSansMedium';
+				font: 13px/1 'GmarketSansMedium';
 				color: rgb(42, 42, 75);
 				/* margin-left: 100px; */
 				padding: 10px 0px;

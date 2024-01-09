@@ -78,7 +78,7 @@
             .line{
                 position: absolute;
                 margin-top: 190px;
-                margin-left: 350px;
+                margin-left: 360px;
                 border-top: 3px solid rgb(71, 172, 172);
                 width: 250px;
             }
@@ -118,7 +118,7 @@
                 .line{
                     position: absolute;
                     margin-top: 50px;
-                    margin-left: 570px;
+                    margin-left: 565px;
                     border-top: 3px solid rgb(71, 172, 172);
                     width: 250px;
                 }
@@ -138,11 +138,10 @@
                 p{
                     margin-top: 60px;
                     font: 28px/1 'GmarketSansMedium';
-                    color: rgb(87, 87, 119);;
+                    color: rgb(87, 87, 119);
                     line-height: 50px;
                     word-spacing: -2px;
                     padding-bottom: 100px;
-                    margin-left: 747px;
                     text-align: right;
                 }
             }
@@ -150,7 +149,7 @@
         .explanation3{
             width: 1180px;
             margin: 0 auto;
-            margin-top: 74px;
+            margin-top: 130px;
             .inner{
                 width: 100%;
                 .line{
@@ -215,7 +214,7 @@
                     color: rgb(87, 87, 119);
                     line-height: 50px;
                     word-spacing: -2px;
-                    padding-bottom: 200px;
+                    padding-bottom: 140px;
                 }
             }
         }
@@ -236,27 +235,29 @@
                 .line2{
                     position: absolute;
                     margin-top: 80px;
-                    margin-left: 800px;
+                    margin-left: 930px;
                     border-top: 3px solid rgb(71, 172, 172);
                     width: 250px;
                 }
             }
             .logo{
                 width: 100%;
-                margin-left: 36%;
+                margin-left: 28.5%;
             }
             h1{
                 font: 75px/1 'GmarketSansBold';
                 color: rgb(53, 53, 95);
                 line-height: 70px;
-                margin-left: 34%;
+                margin-left: 25%;
                 margin-top: 30px;
             }
             .coffe{
-                width: 1180px;
+                width: 100%;
                 margin-top: 100px;
-                margin-left: 150px;
-                margin-bottom: 300px;
+                margin-bottom: 200px;
+                img{
+                    width: 1180px;
+                }
             }
         }
     }

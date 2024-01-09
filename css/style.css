@@ -115,13 +115,13 @@ footer .wrap {
 }
 footer .wrap h3 {
   display: flex;
-  font: bold 17px/1 "맑은고딕";
+  font: bold 15px/1 "맑은고딕";
   color: #696969;
-  width: 170px;
+  width: 150px;
   justify-content: center;
 }
 footer .inner {
-  padding-top: 30px;
+  padding-top: 20px;
   display: flex;
   border-top: 3px solid mediumturquoise;
   width: 1180px;
@@ -132,7 +132,7 @@ footer .inner .footer_logo img {
 }
 footer .inner .copy p {
   width: 100%;
-  font: 17px/1 "GmarketSansMedium";
+  font: 13px/1 "GmarketSansMedium";
   color: rgb(42, 42, 75);
   /* margin-left: 100px; */
   padding: 10px 0px;
@@ -233,7 +233,7 @@ footer .inner .footer_wrap a img {
 .coffebean .wrap .inner .line {
   position: absolute;
   margin-top: 190px;
-  margin-left: 350px;
+  margin-left: 360px;
   border-top: 3px solid rgb(71, 172, 172);
   width: 250px;
 }
@@ -270,7 +270,7 @@ footer .inner .footer_wrap a img {
 .coffebean .wrap .explanation2 .inner .line {
   position: absolute;
   margin-top: 50px;
-  margin-left: 570px;
+  margin-left: 565px;
   border-top: 3px solid rgb(71, 172, 172);
   width: 250px;
 }
@@ -292,13 +292,12 @@ footer .inner .footer_wrap a img {
   line-height: 50px;
   word-spacing: -2px;
   padding-bottom: 100px;
-  margin-left: 747px;
   text-align: right;
 }
 .coffebean .wrap .explanation3 {
   width: 1180px;
   margin: 0 auto;
-  margin-top: 74px;
+  margin-top: 130px;
 }
 .coffebean .wrap .explanation3 .inner {
   width: 100%;
@@ -361,7 +360,7 @@ footer .inner .footer_wrap a img {
   color: rgb(87, 87, 119);
   line-height: 50px;
   word-spacing: -2px;
-  padding-bottom: 200px;
+  padding-bottom: 140px;
 }
 .coffebean .wrap .explanation5 {
   width: 1180px;
@@ -382,26 +381,28 @@ footer .inner .footer_wrap a img {
 .coffebean .wrap .explanation5 .inner .line2 {
   position: absolute;
   margin-top: 80px;
-  margin-left: 800px;
+  margin-left: 930px;
   border-top: 3px solid rgb(71, 172, 172);
   width: 250px;
 }
 .coffebean .wrap .explanation5 .logo {
   width: 100%;
-  margin-left: 36%;
+  margin-left: 28.5%;
 }
 .coffebean .wrap .explanation5 h1 {
   font: 75px/1 "GmarketSansBold";
   color: rgb(53, 53, 95);
   line-height: 70px;
-  margin-left: 34%;
+  margin-left: 25%;
   margin-top: 30px;
 }
 .coffebean .wrap .explanation5 .coffe {
-  width: 1180px;
+  width: 100%;
   margin-top: 100px;
-  margin-left: 150px;
-  margin-bottom: 300px;
+  margin-bottom: 200px;
+}
+.coffebean .wrap .explanation5 .coffe img {
+  width: 1180px;
 }
 
 @font-face {
